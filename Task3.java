@@ -1,12 +1,9 @@
-public class Task3
-{
-	static void hello(String name)
-	{
+public class Task3 {
+	static void hello(String name) {
 		System.out.print("Hello " + name + "!");
 	}
 
-	public static void main (String[] args)
-	{
+	public static void main (String[] args) {
 		hello("Thabo");
 	}
 }

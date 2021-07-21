@@ -1,20 +1,15 @@
-public class Task4
-{
-	public static void evenOrOdd (int num)
-	{
+public class Task4 {
+	public static void evenOrOdd (int num) {
 
-		if (num % 2 == 0)
-		{
+		if (num % 2 == 0){
 			System.out.print("Even");
 		}
-		else
-		{
+		else {
 			System.out.print("Odd");
 		}
 	}
 
-	public static void main (String[] args)
-	{
+	public static void main (String[] args) {
 		evenOrOdd(8);
 	}
 }
