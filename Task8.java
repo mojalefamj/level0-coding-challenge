@@ -5,16 +5,16 @@ public class Task8 {
 		
 		if (hours > 1) {
 			if (mins > 1) {
-				System.out.print(hours + " hours, " + mins + " minutes");
+				System.out.println(hours + " hours, " + mins + " minutes");
 			}
 			else
-				System.out.print(hours + " hours, " + mins + " minute");
+				System.out.println(hours + " hours, " + mins + " minute");
 		}
 		else if (mins > 1) {
-			System.out.print(hours + " hour, " + mins + " minutes");
+			System.out.println(hours + " hour, " + mins + " minutes");
 		}
 		else {
-			System.out.print(hours + " hour, " + mins + " minute");
+			System.out.println(hours + " hours, " + mins + " minutes");
 		}
 	}
 

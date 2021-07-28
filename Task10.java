@@ -3,10 +3,13 @@ public class Task10 {
 		for (int i = 0; i < x.length(); i++) {
 			for (int k = 0; k < y.length(); k++) {
 				if (x.charAt(i) == y.charAt(k)) {
-					System.out.print(x.charAt(i) + ", ");
+					System.out.print(x.charAt(i));
+					if (i != x.length() - 1)
+						System.out.print(", ");
 				}
 			}
 		}
+		System.out.println();
 	}
 
 
