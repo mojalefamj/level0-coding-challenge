@@ -8,10 +8,10 @@ public class Task8 {
 				System.out.println(hours + " hours, " + mins + " minutes");
 			}
 			else
-				System.out.println(hours + " hours, " + mins + " minute");
+				System.out.println(hours + " hours, " + mins + " minutes");
 		}
 		else if (mins > 1) {
-			System.out.println(hours + " hour, " + mins + " minutes");
+			System.out.println(hours + " hours, " + mins + " minutes");
 		}
 		else {
 			System.out.println(hours + " hours, " + mins + " minutes");
@@ -19,6 +19,6 @@ public class Task8 {
 	}
 
 	public static void main (String[] args) {
-		converter(0);
+		converter(51);
 	}
 }
